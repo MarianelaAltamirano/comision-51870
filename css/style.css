@@ -1,0 +1,254 @@
+*{
+    padding: 0; /*Le da tamaño a la caja de manera interna*/
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Colores
+    #205E61 (verde oscuro)
+    #B5D5C5 (verde claro)
+    #F29D38 (naranja oscuro)
+    #FFD9B1 (naranja claro)
+*/
+
+/*Fuentes
+font-family: 'Marcellus', serif;
+font-family: 'Marko One', serif;
+*/
+
+/*Inicio de estilos de header*/
+
+
+.header{
+    background-color: #205E61;
+    margin: 0px;
+    padding: 5px;
+    color: white;
+    font-family:'Marcellus', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+header{
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFFFFF;
+    color: black;
+    font-family:'Marcellus', serif ;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family:'Marcellus', serif ;
+    font-size: 20px;
+}
+
+.nav ul {
+    margin: 5px;
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.navBar ul {
+    margin: 5px;
+    padding: 10px;
+    color: black;
+    font-family:'Marcellus', serif ;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.search input {
+    margin: 5px;
+    padding: 10px;
+    width: 500px;
+    height: 50px; 
+    font-family:'Marcellus', serif ;
+    font-size: 20px;
+    
+}
+
+
+/*Inicio de main*/
+
+main{ 
+    background-color: #FFD9B1;
+}
+
+.contenidoPrincipal h1 {
+    /*Fuentes*/
+    font-family: 'Marko One', serif;
+    font-size: 30px;
+    /* font-weight:; */
+    font-style: normal;
+    /*Texto*/
+    text-align: left; /*Movimiento de los textos*/
+    /*text-transform: ; /*Mayuscula (uppercase), minuscula (lowercase), primeras letras en mayusculas (capitalize)*/
+    /*text-decoration: ; Subrayado por arriba (overline), por debajo (underline), para tachar (line-through) */
+    letter-spacing: 0px ;
+    /* text-shadow: 1px 4px 6px #205E61; Sombra*/
+    color: #205E61;
+    margin-top: 5px ;
+    padding: 10px;
+}
+
+.contenidoPrincipal div p {
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+  
+}
+
+.contenidoPrincipal a {
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+    color: white;
+    background-color: #205E61;
+    border-radius: 10%;
+    padding: 5px;
+    margin: 5px ;
+}
+
+
+.sectionCompra{
+    background-color: #FFFFFF; 
+}
+
+.sectionCompra h2 {
+    color: #205E61;
+    font-family: 'Marko One', serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;  
+
+}
+
+.sectionCompra div {
+    padding:10px;
+    margin: 0px;  
+}
+
+.sectionCompra b {
+    color: black;
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+    
+}
+
+.sectionPedido {
+    background-color: #B5D5C5;
+    padding: 10px;
+}
+
+.sectionPedido h2 {
+    color: #205E61;
+    font-family: 'Marko One', serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sectionPedido p {
+    color: black;
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+}
+
+.sectionPedido a {
+    color: black;
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+    
+}
+
+
+/*Inicio de footer*/
+
+footer{
+    background-color: #205E61;
+    padding: 10px;
+    margin: 0px;
+}
+
+.footer p{
+    color: white; 
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+.mainContacto h1 {
+    color: #F29D38;
+    font-family: 'Marko One', serif;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+ }
+
+ .mainContacto div {
+    margin: 0px;
+    padding: 10px;
+    width: 500px;
+    height: 50px; 
+ }
+
+
+.mainContacto fieldset {
+    padding: 40px;
+    margin-left: 650px;
+    width: 150px;
+    height: 400px;
+    text-align: center;
+    border-color: #808080;
+    border-radius: 10%;
+    border-width: 2px;
+    
+}
+
+.mainContacto legend {
+    color:black;
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px;
+} 
+
+ .mainContacto input {
+    color:black;
+    font-family: 'Marcellus', serif;
+    font-size: 15px;
+    text-align: center;
+    width: 300px;
+    height: 20px;
+ }
+
+ .divEnviar input {
+    color: white;
+    background-color: #205E61;
+    border-radius: 10%;
+    border-width: 1px;
+    width: 500px;
+    height: 30px;
+
+ }
+
+
+ .footer {
+    color: black; 
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px;
+    
+}
